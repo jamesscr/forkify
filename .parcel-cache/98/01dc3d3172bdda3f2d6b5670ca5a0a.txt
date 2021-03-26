@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 22182
 109C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\available-typed-arrays132612523125462897 1
 97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\verror\lib132612523127022876 1
@@ -35,6 +36,9 @@
 103C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\wrappy\wrappy.js131080005270000000 0
 139C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\uncss\node_modules\postcss-selector-parser\dist\util132612523150292969 1
 130C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-merge-longhand\dist\lib\getRules.js121436361000000000 0
+=======
+22181
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 95C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\lowlight132612523546931255 1
 118C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\minimist\test\parse_modified.js121436361000000000 0
 114C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\es-abstract\2018\ToInt16.js121436361000000000 0
@@ -47,7 +51,11 @@
 145C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\static-extend\node_modules\is-data-descriptor\node_modules132612523095425133 1
 155C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-normalize-whitespace\node_modules\postcss\lib\declaration.js121436361000000000 0
 97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\randomfill132612523125042869 1
+<<<<<<< HEAD
 78C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist132612566756666201 1
+=======
+78C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist132612463914649390 1
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 124C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\terser\node_modules\commander\LICENSE121436361000000000 0
 81C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\.vscode132612529524604458 1
 149C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-minify-selectors\node_modules\source-map\source-map.js131508414070000000 0
@@ -83,7 +91,11 @@
 101C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\browserify-rsa132612523116715149 1
 142C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-convert-values\node_modules\postcss\lib\list.js121436361000000000 0
 100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\has\README.md121436361000000000 0
+<<<<<<< HEAD
 86C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\views132612520174077239 1
+=======
+86C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\views132612468012965600 1
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 158C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-discard-duplicates\node_modules\source-map\lib\binary-search.js131369414910000000 0
 107C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\es\data-view132612523167983073 1
 107C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\whatwg-url\README.md121436361000000000 0
@@ -238,7 +250,11 @@
 118C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\instance\flat.js121436361000000000 0
 100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\normalize-url132612523116275233 1
 124C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\utils\test\collection.test.js121436361000000000 0
+<<<<<<< HEAD
 80C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js132612519829190376 1
+=======
+80C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js132612467834796672 1
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 140C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\jsdom\lib\jsdom\living\generated\HTMLSelectElement.js121436361000000000 0
 108C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\requires-port\LICENSE130683296700000000 0
 157C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\css-modules-loader-core\node_modules\postcss\lib\terminal-highlight.js131386303530000000 0
@@ -354,7 +370,11 @@
 124C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\which-typed-array\.github\FUNDING.yml121436361000000000 0
 95C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\isstream132612523127062865 1
 164C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\regenerate-unicode-properties\Binary_Property\Changes_When_NFKC_Casefolded.js121436361000000000 0
+<<<<<<< HEAD
 94C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\controller.js132612566748716303 0
+=======
+94C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\controller.js132612463910803274 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 160C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-discard-duplicates\node_modules\postcss\docs\guidelines\plugin.md121436361000000000 0
 150C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-normalize-whitespace\node_modules\ansi-styles\readme.md131628273600000000 0
 127C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\@babel\generator\lib\generators\types.js121012626000000000 0
@@ -375,7 +395,11 @@
 96C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\uncss\bin132612523110675168 1
 150C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\stream-http\node_modules\readable-stream\experimentalWarning.js121436361000000000 0
 147C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-normalize-unicode\node_modules\color-convert\LICENSE121436361000000000 0
+<<<<<<< HEAD
 89C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\model.js132612537715846860 0
+=======
+89C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\model.js132612467574844388 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 128C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\snapdragon\node_modules\debug\.travis.yml131505605660000000 0
 163C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-discard-comments\node_modules\source-map\lib\source-map-generator.js131508293880000000 0
 104C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\util\CHANGELOG.md121436361000000000 0
@@ -383,7 +407,11 @@
 123C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\svgo\plugins\cleanupNumericValues.js121436361000000000 0
 134C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\highlight.js\styles\tomorrow-night-eighties.css121436361000000000 0
 98C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\querystring132612523548651213 1
+<<<<<<< HEAD
 100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\views\recipeView.js132612566068224730 0
+=======
+100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\src\js\views\recipeView.js132612468012965600 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 146C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\regenerate-unicode-properties\Script\Khitan_Small_Script.js121436361000000000 0
 135C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\union-value\node_modules\is-extendable\README.md130805238020000000 0
 133C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\request-promise-core\configure\request-next.js121436361000000000 0
@@ -436,6 +464,12 @@
 100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\acorn-globals132612523116055137 1
 103C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\lodash\invoke.js121436361000000000 0
 142C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\css-modules-loader-core\node_modules\strip-ansi\license130690706130000000 0
+<<<<<<< HEAD
+=======
+151C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-svgo\node_modules\source-map\lib\source-map-generator.js131508293880000000 0
+90C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\ajv132612523153512866 1
+143C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\regenerate-unicode-properties\Script_Extensions\Oriya.js121436361000000000 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 109C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\w3c-hr-time\LICENSE.md132279277550000000 0
 109C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\astral-regex\readme.md121436361000000000 0
 101C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\balanced-match132612523118085139 1
@@ -509,6 +543,7 @@
 136C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-selector-parser\dist\__tests__\escapes.js121436361000000000 0
 155C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-minify-font-values\node_modules\postcss\docs\architecture.md121436361000000000 0
 127C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\uri-js\dist\esnext\schemes\urn-uuid.d.ts121436361000000000 0
+<<<<<<< HEAD
 125C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-normalize-unicode\node_modules132612523517851231 1
 120C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\uncss\node_modules\source-map\lib132612523554351537 1
 146C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\unicode-canonical-property-names-ecmascript\LICENSE-MIT.txt131728495800000000 0
@@ -522,6 +557,8 @@
 129C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\@babel\helper-define-polyfill-provider\lib132612523138112881 1
 100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\async-limiter132612523120785167 1
 136C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-ordered-values\node_modules\color-convert132612523546511225 1
+=======
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 95C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\asynckit132612523125502877 1
 107C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\escape-html\index.js130855493490000000 0
 103C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\caseless\test.js131299402420000000 0
@@ -2770,6 +2807,7 @@
 111C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\string.prototype.trimend132612523134602870 1
 100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\shebang-regex132612523116165159 1
 106C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\is-docker\readme.md121436361000000000 0
+<<<<<<< HEAD
 132C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\stylehacks\dist\plugins\trailingSlashComma.js121436361000000000 0
 132C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\rest-parameters.js121436361000000000 0
 142C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-unique-selectors\node_modules\postcss\README.md121436361000000000 0
@@ -2781,6 +2819,8 @@
 144C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-svgo\node_modules\postcss\lib\css-syntax-error.js121436361000000000 0
 97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\source-map132612523145762877 1
 143C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-modules-scope\node_modules\postcss\lib\result.js121436361000000000 0
+=======
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 146C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\split2\node_modules\readable-stream\lib\_stream_readable.js121436361000000000 0
 111C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\repeat-element\README.md121436361000000000 0
 120C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\type-fest\source\stringified.d.ts121436361000000000 0
@@ -4437,7 +4477,11 @@
 132C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\snapdragon\node_modules\is-descriptor\LICENSE131452119970000000 0
 123C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\csso\node_modules\mdn-data\README.md121436361000000000 0
 125C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\uncss\node_modules\commander\Readme.md121436361000000000 0
+<<<<<<< HEAD
 96C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.250b04c7.js132612566756577750 0
+=======
+96C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.250b04c7.js132612463914589398 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 117C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\request-promise-core\README.md121436361000000000 0
 123C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\uncss\node_modules\commander\typings132612523547991220 1
 149C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\regenerate-unicode-properties\Script\Inscriptional_Parthian.js121436361000000000 0
@@ -8748,7 +8792,11 @@
 147C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-reduce-initial\node_modules\source-map\source-map.js131508414070000000 0
 160C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-reduce-initial\node_modules\source-map\lib\source-map-consumer.js131511695460000000 0
 161C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-reduce-initial\node_modules\source-map\lib\source-map-generator.js131508293880000000 0
+<<<<<<< HEAD
 89C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.html132612566756497793 0
+=======
+89C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.html132612463914323684 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 103C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\bl\BufferList.js121436361000000000 0
 154C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-normalize-display-values\node_modules\postcss\lib\result.js121436361000000000 0
 118C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\jsdom\lib\jsdom\level2\style.js121436361000000000 0
@@ -14652,7 +14700,11 @@
 136C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\jsdom\lib\jsdom\living\helpers\dates-and-times.js121436361000000000 0
 127C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\jsdom\lib\jsdom\living\helpers\events.js121436361000000000 0
 139C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\jsdom\lib\jsdom\living\helpers\internal-constants.js121436361000000000 0
+<<<<<<< HEAD
 99C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\favicon.80934ffe.png132612566753711757 0
+=======
+99C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\favicon.80934ffe.png132612463913763669 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 117C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\argparse\lib\help\formatter.js131631780190000000 0
 125C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\jsdom\lib\jsdom\living\helpers\json.js121436361000000000 0
 139C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\jsdom\lib\jsdom\living\helpers\mutation-observers.js121436361000000000 0
@@ -15441,7 +15493,11 @@
 114C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\http-signature\package.json131481630620000000 0
 114C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\http-signature\lib\utils.js131480975920000000 0
 126C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\css-selector-tokenizer\lib\stringify.js121436361000000000 0
+<<<<<<< HEAD
 100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.250b04c7.js.map132612566756656229 0
+=======
+100C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.250b04c7.js.map132612463914639409 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 115C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\http-signature\lib\verify.js131480975920000000 0
 121C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\http-proxy-middleware\CHANGELOG.md121436361000000000 0
 121C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\http-proxy-middleware\package.json121436361000000000 0
@@ -17520,7 +17576,11 @@
 143C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\csso\node_modules\source-map\lib\source-map-generator.js131508293880000000 0
 127C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\csso\node_modules\source-map\lib\util.js131509318790000000 0
 140C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\csso\node_modules\source-map\dist\source-map.debug.js131511695990000000 0
+<<<<<<< HEAD
 97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\icons.d4a14980.svg132612566754271688 0
+=======
+97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\icons.d4a14980.svg132612463914143669 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 142C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\bl\node_modules\readable-stream\lib\_stream_writable.js121436361000000000 0
 134C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\csso\node_modules\source-map\dist\source-map.js131511695990000000 0
 138C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\csso\node_modules\source-map\dist\source-map.min.js131511695990000000 0
@@ -22177,7 +22237,14 @@
 102C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\terser.ps1132612523584165419 0
 101C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\uncss.cmd132612523171402871 0
 101C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\which.ps1132612523171402871 0
+<<<<<<< HEAD
 97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\icons.c4b52749.svg132612566753711757 0
 97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.1206e35b.css132612566756497793 0
 101C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.1206e35b.css.map132612566756567733 0
 96C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\logo.5d271741.png132612566753731693 0
+=======
+97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\icons.c4b52749.svg132612463913763669 0
+97C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.1206e35b.css132612463914323684 0
+101C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\index.1206e35b.css.map132612463914589398 0
+96C:\Users\utilisateur\complete-javascript-course-master\18-forkify\starter\dist\logo.5d271741.png132612463913813852 0
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8

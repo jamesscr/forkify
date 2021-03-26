@@ -6,7 +6,11 @@ export const state = {
 
 export const loadRecipe = async function (id) {
     try {
+<<<<<<< HEAD
         const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`)
+=======
+        const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
         // const res = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bcfcc')
         const data = await res.json();
 
@@ -28,5 +32,9 @@ export const loadRecipe = async function (id) {
     } catch (err) {
         alert(err);
     }
+<<<<<<< HEAD
 
 };
+=======
+}
+>>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
