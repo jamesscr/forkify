@@ -443,11 +443,7 @@ id) /*: string*/
 
 },{}],"3miIZ":[function(require,module,exports) {
 var _modelJs = require('./model.js');
-<<<<<<< HEAD
 var _viewsRecipeViewJs = require('./views/recipeView.js');
-=======
-var _urlImgIconsSvg = require('url:../img/icons.svg');
->>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 var _viewsRecipeViewJsDefault = _parcelHelpers.interopDefault(_viewsRecipeViewJs);
 require('url:../img/icons.svg');
@@ -468,16 +464,9 @@ const controlRecipes = async function () {
     const id = window.location.hash.slice(1);
     console.log(id);
     if (!id) return;
-<<<<<<< HEAD
     _viewsRecipeViewJsDefault.default.renderSpinner();
     // 1. Loading Recipe
     await _modelJs.loadRecipe(id);
-=======
-    renderSpinner(recipeContainer);
-    // 1. Loading Recipe
-    await _modelJs.loadRecipe(id);
-    const {recipe} = _modelJs.state;
->>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
     // 2. rendering Recipe
     _viewsRecipeViewJsDefault.default.render(_modelJs.state.recipe);
   } catch (err) {
@@ -486,11 +475,7 @@ const controlRecipes = async function () {
 };
 ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, controlRecipes));
 
-<<<<<<< HEAD
 },{"url:../img/icons.svg":"3t5dV","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","core-js/stable":"1PFvP","regenerator-runtime/runtime":"62Qib","./model.js":"1hp6y","./views/recipeView.js":"9e6b9"}],"3t5dV":[function(require,module,exports) {
-=======
-},{"url:../img/icons.svg":"3t5dV","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","core-js/stable":"1PFvP","regenerator-runtime/runtime":"62Qib","./model.js":"1hp6y"}],"3t5dV":[function(require,module,exports) {
->>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 module.exports = require('./bundle-url').getBundleURL() + "icons.d4a14980.svg"
 },{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
 "use strict";
@@ -12473,7 +12458,6 @@ const loadRecipe = async function (id) {
   }
 };
 
-<<<<<<< HEAD
 },{"regenerator-runtime":"62Qib","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"9e6b9":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
@@ -13032,8 +13016,5 @@ Fraction.primeFactors = function(n)
 module.exports.Fraction = Fraction
 
 },{}]},["1WnDs","3miIZ"], "3miIZ", "parcelRequirefade")
-=======
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","regenerator-runtime":"62Qib"}]},["1WnDs","3miIZ"], "3miIZ", "parcelRequirefade")
->>>>>>> a1bfe7d362dfe3079b89e1ba8727a5f7aa8b02d8
 
 //# sourceMappingURL=index.250b04c7.js.map
