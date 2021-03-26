@@ -10,11 +10,17 @@
   "author": "James",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@parcel/transformer-sass": "^2.0.0-nightly.633",
     "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
     "core-js": "^3.9.1",
+    "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.7"
-  }
+  },
+  "plugins": [
+    "transform-runtime",
+    "@babel/plugin-proposal-class-properties"
+  ]
 }
