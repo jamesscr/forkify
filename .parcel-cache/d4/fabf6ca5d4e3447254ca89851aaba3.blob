@@ -446,9 +446,17 @@ var _modelJs = require('./model.js');
 var _viewsRecipeViewJs = require('./views/recipeView.js');
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 var _viewsRecipeViewJsDefault = _parcelHelpers.interopDefault(_viewsRecipeViewJs);
+require('url:../img/icons.svg');
 require('core-js/stable');
 require('regenerator-runtime/runtime');
 const recipeContainer = document.querySelector('.recipe');
+const timeout = function (s) {
+  return new Promise(function (_, reject) {
+    setTimeout(function () {
+      reject(new Error(`Request took too long! Timeout after ${s} second`));
+    }, s * 1000);
+  });
+};
 // https://forkify-api.herokuapp.com/v2
 // //////////////////////////////////s///
 const controlRecipes = async function () {
@@ -467,7 +475,55 @@ const controlRecipes = async function () {
 };
 ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, controlRecipes));
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","core-js/stable":"1PFvP","regenerator-runtime/runtime":"62Qib","./model.js":"1hp6y","./views/recipeView.js":"9e6b9"}],"5gA8y":[function(require,module,exports) {
+},{"url:../img/icons.svg":"3t5dV","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","core-js/stable":"1PFvP","regenerator-runtime/runtime":"62Qib","./model.js":"1hp6y","./views/recipeView.js":"9e6b9"}],"3t5dV":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "icons.HASH_REF_f6727c52d326b6f99dffa0b9d4a14980.svg"
+},{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
+"use strict";
+
+/* globals document:readonly */
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+
+
+function getOrigin(url) {
+  let matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
+
+  if (!matches) {
+    throw new Error('Origin not found');
+  }
+
+  return matches[0];
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+},{}],"5gA8y":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
@@ -12377,13 +12433,15 @@ _parcelHelpers.export(exports, "loadRecipe", function () {
 });
 require('regenerator-runtime');
 var _configJs = require('./config.js');
-var _helpersJs = require('./helpers.js');
 const state = {
   recipe: {}
 };
 const loadRecipe = async function (id) {
   try {
-    const data = await _helpersJs.getJSON(`${_configJs.API_URL}/${id}`);
+    const res = await fetch(`${_configJs.API_URL}/${id}`);
+    // const res = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bcfcc')
+    const data = await res.json();
+    if (!res.ok) throw new Error(`${data.message} (${res.status})`);
     const {recipe} = data.data;
     state.recipe = {
       id: recipe.id,
@@ -12397,50 +12455,19 @@ const loadRecipe = async function (id) {
     };
     console.log(state.recipe);
   } catch (err) {
-    console.error(`${err} 🎇🎇🎇`);
+    alert(err);
   }
 };
 
-},{"regenerator-runtime":"62Qib","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./config.js":"6pr2F","./helpers.js":"581KF"}],"6pr2F":[function(require,module,exports) {
+},{"regenerator-runtime":"62Qib","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./config.js":"6pr2F"}],"6pr2F":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "API_URL", function () {
   return API_URL;
 });
-_parcelHelpers.export(exports, "TIMEOUT_SEC", function () {
-  return TIMEOUT_SEC;
-});
 const API_URL = 'https://forkify-api.herokuapp.com/api/v2/recipes';
-const TIMEOUT_SEC = 10;
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"581KF":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "getJSON", function () {
-  return getJSON;
-});
-require('regenerator-runtime');
-var _configJs = require('./config.js');
-const timeout = function (s) {
-  return new Promise(function (_, reject) {
-    setTimeout(function () {
-      reject(new Error(`Request took too long! Timeout after ${s} second`));
-    }, s * 1000);
-  });
-};
-const getJSON = async function (url) {
-  try {
-    const fetchPro = fetch(url);
-    const res = await Promise.race([fetchPro, timeout(_configJs.TIMEOUT_SEC)]);
-    const data = await res.json();
-    if (!res.ok) throw new Error(`${data.message} (${res.status})`);
-    return data;
-  } catch (err) {
-    throw err;
-  }
-};
-
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","regenerator-runtime":"62Qib","./config.js":"6pr2F"}],"9e6b9":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"9e6b9":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 var _urlImgIconsSvg = require('url:../../img/icons.svg');
@@ -12628,55 +12655,7 @@ function _generateMarkupIngredient2(ing) {
 }
 exports.default = new RecipeView();
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","url:../../img/icons.svg":"3t5dV","fractional":"5jzJt"}],"3t5dV":[function(require,module,exports) {
-module.exports = require('./bundle-url').getBundleURL() + "icons.d4a14980.svg"
-},{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
-"use strict";
-
-/* globals document:readonly */
-var bundleURL = null;
-
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
-  }
-
-  return bundleURL;
-}
-
-function getBundleURL() {
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-
-
-function getOrigin(url) {
-  let matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
-
-  if (!matches) {
-    throw new Error('Origin not found');
-  }
-
-  return matches[0];
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-},{}],"5jzJt":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","url:../../img/icons.svg":"3t5dV","fractional":"5jzJt"}],"5jzJt":[function(require,module,exports) {
 /*
 fraction.js
 A Javascript fraction library.
@@ -13047,4 +13026,4 @@ module.exports.Fraction = Fraction
 
 },{}]},["1WnDs","3miIZ"], "3miIZ", "parcelRequirefade")
 
-//# sourceMappingURL=index.250b04c7.js.map
+//# sourceMappingURL=index.HASH_REF_6315ebf922a29661e8263da0250b04c7.js.map
