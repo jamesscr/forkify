@@ -3,17 +3,17 @@ import icons from 'url:../../img/icons.svg'; // parcel 2
 
 
 class ResultsView extends View {
-    _parentElement = document.querySelector('.results');
-    _errorMessage = 'No recipe found for your query! Please try again ;)';
-    _message = '';
+  _parentElement = document.querySelector('.results');
+  _errorMessage = 'No recipe found for your query! Please try again ;)';
+  _message = '';
 
-    _generateMarkup() {
-        console.log(this._data);
-        return this._data.map(this._generateMarkupPreview).join('')
+  _generateMarkup() {
+    // console.log(this._data);
+    return this._data.map(this._generateMarkupPreview).join('')
 
-    }
-    _generateMarkupPreview(result) {
-        return `
+  }
+  _generateMarkupPreview(result) {
+    return `
         <li class="preview">
             <a class="preview__link" href="#${result.id}">
               <figure class="preview__fig">
@@ -26,7 +26,7 @@ class ResultsView extends View {
             </a>
           </li>
         `;
-    }
+  }
 }
 
 export default new ResultsView();
