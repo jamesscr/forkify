@@ -12664,7 +12664,7 @@ class RecipeView extends _ViewJsDefault.default {
 exports.default = new RecipeView();
 
 },{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","url:../../img/icons.svg":"3t5dV","fractional":"5jzJt","./View.js":"48jhP"}],"3t5dV":[function(require,module,exports) {
-module.exports = require('./bundle-url').getBundleURL() + "icons.d4a14980.svg"
+module.exports = require('./bundle-url').getBundleURL() + "icons.HASH_REF_f6727c52d326b6f99dffa0b9d4a14980.svg"
 },{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
 "use strict";
 
@@ -13119,16 +13119,11 @@ class View {
     const curElements = Array.from(this._parentElement.querySelectorAll('*'));
     newElements.forEach((newEl, i) => {
       const curEl = curElements[i];
-      // console.log(curEl, newEl.isEqualNode(curEl));
-      // Updates changed TEXT
-      if (!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue?.trim?.() !== '') {
-        // console.log('🎇✨🎇', newEl.firstChild.nodeValue.trim());
+      console.log(curEl, newEl.isEqualNode(curEl));
+      if (!newEl.isEqualNode(curEl) && newEl.firstChild.nodeValue.trim() !== '') {
+        console.log(newEl.firstChild.nodeValue.trim());
         curEl.textContent = newEl.textContent;
       }
-      // Update changed ATTRIBUTES
-      if (!newEl.isEqualNode(curEl)) // console.log(newEl.attributes);
-      // console.log(Array.from(newEl.attributes));
-      Array.from(newEl.attributes).forEach(attr => curEl.setAttribute(attr.name, attr.value));
     });
   }
   _clear() {
@@ -13339,4 +13334,4 @@ exports.default = new PaginationView();
 
 },{"./View.js":"48jhP","url:../../img/icons.svg":"3t5dV","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["1WnDs","3miIZ"], "3miIZ", "parcelRequirefade")
 
-//# sourceMappingURL=index.250b04c7.js.map
+//# sourceMappingURL=index.HASH_REF_6315ebf922a29661e8263da0250b04c7.js.map
