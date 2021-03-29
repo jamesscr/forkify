@@ -463,6 +463,8 @@ const controlRecipes = async function () {
     const id = window.location.hash.slice(1);
     if (!id) return;
     _viewsRecipeViewJsDefault.default.renderSpinner();
+    // 0. Update results view to mark selected search result active
+    _viewsResultsViewJsDefault.default.render(_modelJs.getSearchResultsPage());
     // 1. Loading Recipe
     await _modelJs.loadRecipe(id);
     // 2. rendering Recipe
@@ -13244,9 +13246,10 @@ class ResultsView extends _ViewJsDefault.default {
     return this._data.map(this._generateMarkupPreview).join('');
   }
   _generateMarkupPreview(result) {
+    const id = window.location.hash.slice(1);
     return `
         <li class="preview">
-            <a class="preview__link" href="#${result.id}">
+            <a class="preview__link ${result.id === id ? 'preview__link--active' : ''}" href="#${result.id}">
               <figure class="preview__fig">
                 <img src="${result.image}" alt="${result.title}" />
               </figure>
