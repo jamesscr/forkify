@@ -10,6 +10,7 @@
   "author": "James",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@parcel/transformer-sass": "^2.0.0-nightly.633",
     "parcel": "^2.0.0-beta.1"
