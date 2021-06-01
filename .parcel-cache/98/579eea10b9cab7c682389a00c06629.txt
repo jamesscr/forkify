@@ -55,7 +55,7 @@
 81C:\Users\James\Documents\GitHub\forkify\node_modules\is-date-object\test\index.js121436361000000000 0
 102C:\Users\James\Documents\GitHub\forkify\node_modules\string.prototype.trimstart\test\implementation.js121436361000000000 0
 129C:\Users\James\Documents\GitHub\forkify\node_modules\postcss-minify-selectors\node_modules\postcss-selector-parser\dist\selectors132668137440806861 1
-60C:\Users\James\Documents\GitHub\forkify\src\js\controller.js132669433852212137 0
+60C:\Users\James\Documents\GitHub\forkify\src\js\controller.js132670431895225963 0
 77C:\Users\James\Documents\GitHub\forkify\node_modules\json-stringify-safe\test132668137423612827 1
 74C:\Users\James\Documents\GitHub\forkify\node_modules\querystring\decode.js130069921000000000 0
 66C:\Users\James\Documents\GitHub\forkify\node_modules\is-resolvable132668137409390853 1
@@ -75,7 +75,7 @@
 68C:\Users\James\Documents\GitHub\forkify\node_modules\ws\package.json121436361000000000 0
 137C:\Users\James\Documents\GitHub\forkify\node_modules\@parcel\transformer-coffeescript\node_modules\node-addon-api\doc\object_reference.md121436361000000000 0
 64C:\Users\James\Documents\GitHub\forkify\node_modules\randombytes132668137417928030 1
-44C:\Users\James\Documents\GitHub\forkify\dist132669452910312813 1
+44C:\Users\James\Documents\GitHub\forkify\dist132670441578106943 1
 69C:\Users\James\Documents\GitHub\forkify\node_modules\pbkdf2\README.md121436361000000000 0
 72C:\Users\James\Documents\GitHub\forkify\node_modules\lodash\_getValue.js121436361000000000 0
 67C:\Users\James\Documents\GitHub\forkify\node_modules\unpipe\LICENSE130787873820000000 0
@@ -210,7 +210,7 @@
 82C:\Users\James\Documents\GitHub\forkify\node_modules\call-bind\.github\FUNDING.yml121436361000000000 0
 83C:\Users\James\Documents\GitHub\forkify\node_modules\es-abstract\2019\InLeapYear.js121436361000000000 0
 55C:\Users\James\Documents\GitHub\forkify\node_modules\pn132668137444626653 1
-69C:\Users\James\Documents\GitHub\forkify\src\js\views\bookmarksView.js132667886532131971 0
+69C:\Users\James\Documents\GitHub\forkify\src\js\views\bookmarksView.js132670439529292045 0
 88C:\Users\James\Documents\GitHub\forkify\node_modules\core-js\features\string\fontsize.js121436361000000000 0
 88C:\Users\James\Documents\GitHub\forkify\node_modules\node-addon-api\package-support.json121436361000000000 0
 61C:\Users\James\Documents\GitHub\forkify\node_modules\elliptic132668137445464424 1
@@ -328,7 +328,7 @@
 111C:\Users\James\Documents\GitHub\forkify\node_modules\terser\node_modules\source-map\lib\source-map-generator.js131508293880000000 0
 83C:\Users\James\Documents\GitHub\forkify\node_modules\core-js\es\instance\entries.js121436361000000000 0
 108C:\Users\James\Documents\GitHub\forkify\node_modules\jsdom\lib\jsdom\living\generated\WindowEventHandlers.js121436361000000000 0
-55C:\Users\James\Documents\GitHub\forkify\src\js\model.js132669446810734508 0
+55C:\Users\James\Documents\GitHub\forkify\src\js\model.js132670441570625555 0
 70C:\Users\James\Documents\GitHub\forkify\node_modules\error-ex\index.js131738627880000000 0
 72C:\Users\James\Documents\GitHub\forkify\node_modules\psl\dist\psl.min.js121436361000000000 0
 67C:\Users\James\Documents\GitHub\forkify\node_modules\lodash\ceil.js121436361000000000 0
@@ -344,8 +344,8 @@
 113C:\Users\James\Documents\GitHub\forkify\node_modules\postcss-modules-local-by-default\node_modules\source-map\lib132668137434154639 1
 58C:\Users\James\Documents\GitHub\forkify\node_modules\sshpk132668137449034854 1
 104C:\Users\James\Documents\GitHub\forkify\node_modules\posthtml-parser\coverage\posthtml-parser\index.html121436361000000000 0
-60C:\Users\James\Documents\GitHub\forkify\src\js\views\View.js132669454416655524 0
-71C:\Users\James\Documents\GitHub\forkify\dist\controller.619553e2.js.map132669452910312813 0
+60C:\Users\James\Documents\GitHub\forkify\src\js\views\View.js132670440866764367 0
+71C:\Users\James\Documents\GitHub\forkify\dist\controller.619553e2.js.map132670441578096973 0
 100C:\Users\James\Documents\GitHub\forkify\node_modules\purgecss\node_modules\supports-color\browser.js121436361000000000 0
 89C:\Users\James\Documents\GitHub\forkify\node_modules\core-js\features\weak-set\add-all.js121436361000000000 0
 86C:\Users\James\Documents\GitHub\forkify\node_modules\highlight.js\lib\languages\cos.js131406724530000000 0
@@ -355,7 +355,7 @@
 117C:\Users\James\Documents\GitHub\forkify\node_modules\htmlparser2\node_modules\readable-stream\lib\_stream_readable.js121436361000000000 0
 72C:\Users\James\Documents\GitHub\forkify\node_modules\htmlparser2\LICENSE121436361000000000 0
 81C:\Users\James\Documents\GitHub\forkify\node_modules\es-abstract\2016\MakeDate.js121436361000000000 0
-70C:\Users\James\Documents\GitHub\forkify\src\js\views\paginationView.js132669453763563678 0
+70C:\Users\James\Documents\GitHub\forkify\src\js\views\paginationView.js132670439719279346 0
 86C:\Users\James\Documents\GitHub\forkify\node_modules\core-js\es\array\virtual\every.js121436361000000000 0
 99C:\Users\James\Documents\GitHub\forkify\node_modules\postcss-selector-parser\dist\__tests__\node.js121436361000000000 0
 101C:\Users\James\Documents\GitHub\forkify\node_modules\css-tree\node_modules\source-map\source-map.d.ts131369414910000000 0
@@ -434,7 +434,7 @@
 99C:\Users\James\Documents\GitHub\forkify\node_modules\@parcel\utils\node_modules\terser\package.json121436361000000000 0
 58C:\Users\James\Documents\GitHub\forkify\node_modules\clone132668137418287069 1
 89C:\Users\James\Documents\GitHub\forkify\node_modules\core-js\es\array\virtual\includes.js121436361000000000 0
-57C:\Users\James\Documents\GitHub\forkify\src\js\helpers.js132669442804015203 0
+57C:\Users\James\Documents\GitHub\forkify\src\js\helpers.js132670430998701333 0
 73C:\Users\James\Documents\GitHub\forkify\node_modules\strip-ansi\readme.md121436361000000000 0
 87C:\Users\James\Documents\GitHub\forkify\node_modules\csso\node_modules\css-tree\LICENSE121436361000000000 0
 52C:\Users\James\Documents\GitHub\forkify\src\js\views132668143219898493 1
@@ -452,7 +452,7 @@
 68C:\Users\James\Documents\GitHub\forkify\node_modules\lodash\sumBy.js121436361000000000 0
 96C:\Users\James\Documents\GitHub\forkify\node_modules\core-js\features\string\virtual\includes.js121436361000000000 0
 74C:\Users\James\Documents\GitHub\forkify\node_modules\elliptic\node_modules132668137381326056 1
-69C:\Users\James\Documents\GitHub\forkify\src\js\views\addRecipeView.js132668214624953850 0
+69C:\Users\James\Documents\GitHub\forkify\src\js\views\addRecipeView.js132670439269770655 0
 77C:\Users\James\Documents\GitHub\forkify\node_modules\symbol-tree\package.json121436361000000000 0
 80C:\Users\James\Documents\GitHub\forkify\node_modules\whatwg-encoding\LICENSE.txt121436361000000000 0
 95C:\Users\James\Documents\GitHub\forkify\node_modules\core-js\stable\reflect\set-prototype-of.js121436361000000000 0
@@ -462,10 +462,10 @@
 54C:\Users\James\Documents\GitHub\forkify\node_modules\q132668137423732507 1
 106C:\Users\James\Documents\GitHub\forkify\node_modules\jsdom\lib\jsdom\living\generated\NavigatorLanguage.js121436361000000000 0
 104C:\Users\James\Documents\GitHub\forkify\node_modules\csso\node_modules\mdn-data\css\at-rules.schema.json121436361000000000 0
-67C:\Users\James\Documents\GitHub\forkify\src\js\views\previewView.js132669454216208959 0
+67C:\Users\James\Documents\GitHub\forkify\src\js\views\previewView.js132670440042764001 0
 95C:\Users\James\Documents\GitHub\forkify\node_modules\purgecss\node_modules\source-map\README.md131508293880000000 0
 80C:\Users\James\Documents\GitHub\forkify\node_modules\es-abstract\GetIntrinsic.js121436361000000000 0
-66C:\Users\James\Documents\GitHub\forkify\src\js\views\recipeView.js132669454094914141 0
+66C:\Users\James\Documents\GitHub\forkify\src\js\views\recipeView.js132670440258229598 0
 88C:\Users\James\Documents\GitHub\forkify\node_modules\es-abstract\2020\Number\subtract.js121436361000000000 0
 64C:\Users\James\Documents\GitHub\forkify\node_modules\sha.js\test132668137431402003 1
 61C:\Users\James\Documents\GitHub\forkify\node_modules\anymatch132668139153567062 1
@@ -496,7 +496,7 @@
 82C:\Users\James\Documents\GitHub\forkify\node_modules\js-yaml\lib\js-yaml\common.js121436361000000000 0
 88C:\Users\James\Documents\GitHub\forkify\node_modules\stylehacks\dist\plugins\starHtml.js121436361000000000 0
 70C:\Users\James\Documents\GitHub\forkify\node_modules\lodash\_Symbol.js121436361000000000 0
-67C:\Users\James\Documents\GitHub\forkify\src\js\views\resultsView.js132667872420661391 0
+67C:\Users\James\Documents\GitHub\forkify\src\js\views\resultsView.js132670440459411674 0
 65C:\Users\James\Documents\GitHub\forkify\node_modules\resolve-from132668137408952036 1
 60C:\Users\James\Documents\GitHub\forkify\node_modules\cssnano132668137420012455 1
 106C:\Users\James\Documents\GitHub\forkify\node_modules\@parcel\core\node_modules\@parcel\source-map\src\wasm132668141352677257 1
@@ -514,7 +514,7 @@
 69C:\Users\James\Documents\GitHub\forkify\node_modules\json5\LICENSE.md121436361000000000 0
 96C:\Users\James\Documents\GitHub\forkify\node_modules\postcss-normalize-timing-functions\dist\lib132668137419364185 1
 62C:\Users\James\Documents\GitHub\forkify\node_modules\ansi-html132668140698711379 1
-66C:\Users\James\Documents\GitHub\forkify\src\js\views\searchView.js132667053125573799 0
+66C:\Users\James\Documents\GitHub\forkify\src\js\views\searchView.js132670440648103328 0
 69C:\Users\James\Documents\GitHub\forkify\node_modules\react-is\LICENSE121436361000000000 0
 57C:\Users\James\Documents\GitHub\forkify\node_modules\uniq132668137410697363 1
 126C:\Users\James\Documents\GitHub\forkify\node_modules\postcss-modules-values\node_modules\source-map\dist\source-map.min.js.map131511695990000000 0
@@ -1190,7 +1190,7 @@
 102C:\Users\James\Documents\GitHub\forkify\node_modules\postcss-modules-scope\node_modules\source-map\lib132668137434154639 1
 103C:\Users\James\Documents\GitHub\forkify\node_modules\cssstyle\lib\properties\webkitTapHighlightColor.js121436361000000000 0
 62C:\Users\James\Documents\GitHub\forkify\node_modules\uniq\test132668137415634163 1
-66C:\Users\James\Documents\GitHub\forkify\dist\main.fc68d3a4.css.map132669452908155857 0
+66C:\Users\James\Documents\GitHub\forkify\dist\main.fc68d3a4.css.map132670441576052427 0
 64C:\Users\James\Documents\GitHub\forkify\node_modules\cosmiconfig132668137414846269 1
 114C:\Users\James\Documents\GitHub\forkify\node_modules\@parcel\packager-css\node_modules\node-addon-api\doc\setup.md121436361000000000 0
 74C:\Users\James\Documents\GitHub\forkify\node_modules\sprintf-js\.npmignore130434101930000000 0
@@ -5130,7 +5130,7 @@
 80C:\Users\James\Documents\GitHub\forkify\node_modules\js-yaml\dist\js-yaml.min.js121436361000000000 0
 68C:\Users\James\Documents\GitHub\forkify\node_modules\split2\bench.js121436361000000000 0
 65C:\Users\James\Documents\GitHub\forkify\node_modules\purgecss\lib132668137426036355 1
-67C:\Users\James\Documents\GitHub\forkify\dist\controller.619553e2.js132669452910292872 0
+67C:\Users\James\Documents\GitHub\forkify\dist\controller.619553e2.js132670441578057071 0
 68C:\Users\James\Documents\GitHub\forkify\node_modules\split2\index.js121436361000000000 0
 79C:\Users\James\Documents\GitHub\forkify\node_modules\@parcel\types\package.json121436361000000000 0
 95C:\Users\James\Documents\GitHub\forkify\node_modules\snapdragon\node_modules\debug\package.json131505607290000000 0
@@ -19967,15 +19967,15 @@
 63C:\Users\James\Documents\GitHub\forkify\node_modules\.bin\which132668137492019924 0
 67C:\Users\James\Documents\GitHub\forkify\node_modules\.bin\which.ps1132668137492019924 0
 65C:\Users\James\Documents\GitHub\forkify\dist\favicon.80934ffe.png132667053125214764 0
-65C:\Users\James\Documents\GitHub\forkify\dist\favicon.d902789e.png132669452908076072 0
-63C:\Users\James\Documents\GitHub\forkify\dist\icons.1a63f0dd.svg132669452908076072 0
+65C:\Users\James\Documents\GitHub\forkify\dist\favicon.d902789e.png132670441575882924 0
+63C:\Users\James\Documents\GitHub\forkify\dist\icons.1a63f0dd.svg132670441575882924 0
 63C:\Users\James\Documents\GitHub\forkify\dist\icons.c4b52749.svg132667053125214764 0
 67C:\Users\James\Documents\GitHub\forkify\dist\index.1206e35b.css.map132667053125224381 0
 62C:\Users\James\Documents\GitHub\forkify\dist\index.250b04c7.js132667053125244689 0
 66C:\Users\James\Documents\GitHub\forkify\dist\index.250b04c7.js.map132667053125254663 0
-55C:\Users\James\Documents\GitHub\forkify\dist\index.html132669452908076072 0
-62C:\Users\James\Documents\GitHub\forkify\dist\logo.5b7dc7a8.png132669452908096012 0
-62C:\Users\James\Documents\GitHub\forkify\dist\main.fc68d3a4.css132669452908076072 0
+55C:\Users\James\Documents\GitHub\forkify\dist\index.html132670441575902819 0
+62C:\Users\James\Documents\GitHub\forkify\dist\logo.5b7dc7a8.png132670441575922772 0
+62C:\Users\James\Documents\GitHub\forkify\dist\main.fc68d3a4.css132670441575912812 0
 49C:\Users\James\Documents\GitHub\forkify\.cache\00132667295106108309 1
 49C:\Users\James\Documents\GitHub\forkify\.cache\01132667295106088344 1
 49C:\Users\James\Documents\GitHub\forkify\.cache\02132667295106138190 1
